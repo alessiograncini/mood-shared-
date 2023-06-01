@@ -1,0 +1,21 @@
+{
+  "AmazonBucket": {
+    "BUCKET_NAME_SCENE_TEMP": "stablediffusion-scene",
+    "BUCKET_NAME_SCENE_STORE": "stablediffusion-scene-store",
+    "BUCKET_NAME_PROMPT_TEMP": "stablediffusion-prompt",
+    "BUCKET_NAME_PROMPT_STORE": "stablediffusion-prompt-store"
+  },
+  "Credentials": {
+    "ACCESS_KEY": "YOUR-ACCESS-KEY",
+    "SECRET_KEY": "YOUR-SECRET-KEY"
+  },
+  "Paths": {
+    "IMAGES": "_LocalData/Images",
+    "PROMPTS": "_LocalData/Prompts"
+  },
+  "WEB": {
+    "SERVERURL": "https://192.168.1.180:8000",
+    "RUNPYTHON": "YOUR PATH TO THE PYTHON SERVER SCRIPT THAT RUNS STABLE DIFFUSION",
+    "STOPPYTHON": "YOUR PATH TO THE PYTHON SERVER SCRIPT THAT STOPS STABLE DIFFUSION"
+  }
+}
